@@ -21,6 +21,16 @@ const text = "Hello, World!"; // Una stringa
 const bool = true; // Un valore booleano
 console.log(number, text, bool);
 
+
+// NOTA: valori booleani possono essere true o false.
+// Esempio di un valore booleano che rappresenta se una persona è maggiorenne o meno:
+const age = 20;
+const isAdult = age >= 18; // true
+
+console.log(isAdult); // Output: true
+
+
+
 // 3. Sostituisci null nelle righe sottostanti utilizzando operazioni con le stringhe
 // e le variabili sopra in modo da stampare correttamente 
 // in console la stringa con il nome completo
