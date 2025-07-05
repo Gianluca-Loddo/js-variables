@@ -32,3 +32,6 @@ console.log(numBytes); // Output: 7
 // 6. bis oppure si potrebbe fare anche così
 const numBytesBis = (numOne + numTwo + numThree) / numOne;
 console.log(numBytesBis); // Output: 7
+
+// In JavaScript, non è consentito dichiarare due volte una variabile con lo stesso nome nello stesso ambito quando si usa let o const.
+// per questo motivo, non si può dichiarare una variabile con lo stesso nome di una già esistente ed è stata creata una nuova variabile numBytesBis
