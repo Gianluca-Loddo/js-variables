@@ -30,6 +30,14 @@ const isAdult = age >= 18; // true
 console.log(isAdult); // Output: true
 
 
+// | Descrizione                      | Variabile booleana                     |
+// | -------------------------------- | -------------------------------------- |
+// | L’utente ha effettuato il login? | `const isLoggedIn = true;`             |
+// | Il prodotto è disponibile?       | `const inStock = false;`               |
+// | Il numero è pari?                | `const isEven = (num % 2 === 0);`      |
+// | La password è corretta?          | `const isValid = password === "1234";` |
+
+
 
 // 3. Sostituisci null nelle righe sottostanti utilizzando operazioni con le stringhe
 // e le variabili sopra in modo da stampare correttamente 
