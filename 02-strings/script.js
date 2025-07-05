@@ -5,6 +5,12 @@
 const name = "Gianluca";
 console.log(name); // Output: "Gianluca"
 
+// VisualStudioCode mi segnala un errore di linting perché non è stato utilizzato il nome della variabile in camelCase.
+// Dovrei rinominare la variabile in modo che segua le convenzioni di denominazione.
+
+const userName = "Gianluca";
+console.log(userName); // Output: "Gianluca"
+
 // 2. Tipi primitivi
 // Crea tre variabili chiamate number, text e bool e assegna rispettivamente
 // un numero, una stringa e un valore booleano.
@@ -30,9 +36,12 @@ const lastName = 'Smith'; // NON MODIFICARE QUESTA RIGA
 const fullName = `${firstName} ${lastName}`; // Concatenazione delle stringhe
 console.log(fullName); // Output: "Jane Smith"
 
+//NOTA: Le backtick (`) permettono di creare stringhe dinamiche.
+// ${...} permette di inserire variabili o espressioni direttamente nella stringa.
+
+
 // per poter utilizzare l'operatore di concatenazione verrà dichiarata una nuova variabile fullName2 in quanto fullName è già stato definito
 // In JavaScript, non è consentito dichiarare due volte una variabile con lo stesso nome nello stesso ambito quando si usa let o const.
-
 const fullName2 = firstName + ' ' + lastName; // Concatenazione delle stringhe
 console.log(fullName2); // Output: "Jane Smith"
 
